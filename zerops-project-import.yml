@@ -9,5 +9,5 @@ services:
     enableSubdomainAccess: true    
   - hostname: db
     type: postgresql@17
-    mode: HA
+    mode: NON_HA
     priority: 1
