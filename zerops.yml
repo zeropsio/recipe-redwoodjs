@@ -1,0 +1,18 @@
+zerops:
+  - setup: app
+    build:
+      base: nodejs@20
+      buildCommands:
+        - yarn
+        - yarn rw build
+      deployFiles: ./
+    run:
+      base: nodejs@20
+      envVariables:
+        DATABASE_URL: ${db_connectionString}
+      ports:
+        - port: 8910
+          httpSupport: true
+        - port: 8911
+          httpSupport: true
+      start: yarn rw serve

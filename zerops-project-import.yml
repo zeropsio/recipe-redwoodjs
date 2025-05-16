@@ -1,0 +1,13 @@
+project:
+  name: recipe-redwoodjs
+  tags:
+    - zerops-recipe
+services:
+  - hostname: app
+    type: nodejs@20
+    buildFromGit: https://github.com/zeropsio/recipe-redwoodjs
+    enableSubdomainAccess: true    
+  - hostname: db
+    type: postgresql@17
+    mode: HA
+    priority: 1
