@@ -1,0 +1,109 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #ffffff;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+p {
+  color: #121212;
+}
+
+.deploybutton {
+  background-color: #00b1a3;
+  padding-left: 7.25rem;
+  padding-right: 7.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  transition: 300ms;
+}
+
+.deploybutton:hover {
+  background-color: #3cbdb2;
+}
+
+.primarybutton {
+  background-color: #131313;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+  transition: 300ms;
+}
+
+.primarybutton:hover {
+  background-color: #4a4a4a;
+}
+
+.discordbutton {
+  border: #d4d4d4 solid 1px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 600;
+  color: #131313;
+  transition: 300ms;
+}
+
+.discordbutton:hover {
+  background-color: #F9F9F9;
+}
+
+.zeropsbutton {
+  border: #d4d4d4 solid 1px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: 600;
+  color: #131313;
+  transition: 300ms;
+}
+
+.zeropsbutton:hover {
+  background-color: #F9F9F9;
+}
+
+.zerops:hover {
+  color: #666;
+}
+
+.link {
+  color: #121212;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: #222222;
+  text-decoration: underline;
+}
+
+.copybtn {
+  transition: 300ms;
+}
+
+h1 {
+  color: #070707;
+}

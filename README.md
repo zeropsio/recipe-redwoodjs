@@ -1,4 +1,27 @@
-# Zerops x Redwoodjs 
+# Zerops x RedwoodJS
+
+![](./covers/svg/cover-redwoodjs.svg)
+
+[![Deploy on Zerops](./assets/deploy-on-zerops-button.svg)](https://app.zerops.io/import?githubUrl=https://github.com/zeropsio/recipe-redwoodjs)
+
+Or copy the import manifest from [zerops-project-import.yml](./zerops-project-import.yml) into the Zerops import dialog.
+
+## Recipe features
+
+Latest RedwoodJS 8.6.1 with SSR, GraphQL, and Prisma on Zerops Node.js service.
+
+## Production vs. Development
+
+For production deployments, we recommend setting up horizontal scaling with `minContainers: 2` to ensure high availability of your application.
+
+## Changes made over the default installation
+
+No code changes were needed beyond adding the `zerops.yml` configuration file for deployment.
+
+## Learn more & Community
+
+- [Zerops.io](https://zerops.io) - Cloud platform for developers and DevOps
+- [Zerops Documentation](https://docs.zerops.io) - Comprehensive guides and references
 
 Welcome to [RedwoodJS](https://redwoodjs.com)!
 
