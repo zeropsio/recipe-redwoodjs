@@ -17,7 +17,7 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 <br/>
 
 ## Recipe features
-- Latest version of **Redwoodjs+** with SSR running on a load balanced **Zerops Node.js** service.
+- Latest version of **Redwoodjs** with SSR running on a load balanced **Zerops Node.js** service.
 - Uses Graphql and Database running on **Postgres 17**.
 
 <br/>
