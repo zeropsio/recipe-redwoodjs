@@ -1,6 +1,6 @@
 # Zerops x RedwoodJS
 
-![](./covers/svg/cover-redwoodjs.svg)
+![cover](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/svg/cover-redwoodjs.svg)
 
 [![Deploy on Zerops](./assets/deploy-on-zerops-button.svg)](https://app.zerops.io/import?githubUrl=https://github.com/zeropsio/recipe-redwoodjs)
 
